@@ -8,7 +8,7 @@
 
 ###
 
-<h3 align="center">Final-year IT student at Saigon University | Aspiring to become a Data Engineer</h3>
+<h3 align="center">Final-year IT student at Saigon University | Building toward Data Engineering</h3>
 
 ###
 
@@ -114,7 +114,6 @@ A university software project focused on building a complete food ordering platf
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=phatle224&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=phatle224&locale=en&mode=weekly&theme=rose_pine&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=phatle224&radius=16&theme=material-palenight&area=true&order=5&custom_title=No%20pain%20no%20gain" height="290" alt="activity-graph graph"  />
 </div>
 
@@ -128,7 +127,7 @@ A university software project focused on building a complete food ordering platf
   <a href="https://www.linkedin.com/in/phat-le-674640330/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
-  <a href="hongphatle224@gmail.com" target="_blank">
+  <a href="mailto:hongphatle224@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
   </a>
   <a href="https://www.instagram.com/_fat.le44/" target="_blank">
