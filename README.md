@@ -98,7 +98,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=phatle224&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=phatle224&locale=en&mode=weekly&theme=rose_pine&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=phatle224&radius=16&theme=material-palenight&area=true&order=5&custom_title=No%20pain%20no%20gain" height="290" alt="activity-graph graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=phatle224&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ###
