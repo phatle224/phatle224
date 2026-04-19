@@ -91,6 +91,20 @@
 ###
 
 <h2 align="left">📌 Featured Projects</h2>
+<div align="left">
+
+### 1) FoodFast - Food Ordering & Management System
+A university software project focused on building a complete food ordering platform with clear business flow and practical deployment orientation.
+
+- Implemented core modules for food browsing, ordering, and order status management.
+- Contributed to backend data handling and integration between application layers.
+- Worked with relational database design and CRUD workflows for stable operations.
+- Practiced team collaboration with Git/GitHub and feature-based development.
+
+**Tech used:** `Java` `Spring Boot` `MySQL` `REST API` `Git/GitHub`  
+🔗 **Repository:** [phatle224/sgu_cnpm_foodfast](https://github.com/phatle224/sgu_cnpm_foodfast)
+
+</div>
 
 ###
 
