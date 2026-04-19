@@ -56,7 +56,7 @@
 
 ###
 
-<h3 align="left">Cloud & Tools</h3>
+<h3 align="left">Data Engineering</h3>
 
 ###
 
@@ -66,7 +66,7 @@
 
 ###
 
-<h3 align="left">Data Engineering</h3>
+<h3 align="left">Cloud & Tools</h3>
 
 ###
 
