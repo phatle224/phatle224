@@ -12,6 +12,15 @@
 
 ###
 
+<div align="center">
+  <img src="https://img.shields.io/badge/📍-Ho%20Chi%20Minh%20City-6f42c1?style=flat-square" alt="location badge" />
+  <img src="https://img.shields.io/badge/🎓-Final%20Year%20Student-2ea043?style=flat-square" alt="status badge" />
+  <img src="https://img.shields.io/badge/🎯-Data%20Engineer-1f6feb?style=flat-square" alt="goal badge" />
+  <img src="https://img.shields.io/badge/💼-Open%20for%20Internship-d29922?style=flat-square" alt="internship badge" />
+</div>
+
+###
+
 <h2 align="left">👨‍💻 About me</h2>
 
 <br clear="both">
@@ -21,14 +30,20 @@
 ###
 
 <h2 align="left">💡 What I bring to the table</h2>
-- 📊 Strong SQL/Python fundamentals with real project experience
-- 🔄 Understand data pipeline design from source → warehouse → dashboard
-- 🛠️ Hands-on with modern tools: Airflow, Kafka, Docker
-- 🧠 Love solving data quality & optimization problems
+
+- 📊 Strong SQL + Python fundamentals with hands-on project delivery
+- 🔄 Understand end-to-end pipeline thinking: source → processing → storage → analytics
+- 🛠️ Comfortable with modern data tooling: Airflow, Kafka, RabbitMQ, Docker
+- 🧠 Proactive in debugging data quality, consistency, and performance issues
 
 ### 
 
 <h2 align="left">🛠️ Tech Stack</h2>
+
+###
+
+<p align="left"><b>The Pipeline:</b> <code>Python → Airflow + Kafka → PostgreSQL → Analytics</code></p>
+<p align="left">I choose tools based on reliability and maintainability: <b>Python</b> for flexible ETL logic, <b>Airflow</b> for orchestration, <b>Kafka/RabbitMQ</b> for event-driven flow, and <b>PostgreSQL</b> for structured analytics-ready storage.</p>
 
 ###
 
@@ -101,18 +116,33 @@
 <h2 align="left">📌 Featured Projects</h2>
 <div align="left">
 
-### 1) FoodFast - Food Ordering & Management System
-A university software project focused on building a complete food ordering platform with clear business flow and practical deployment orientation.
+### FoodFast - Food Ordering & Management System
 
-- Implemented core modules for food browsing, ordering, and order status management.
-- Contributed to backend data handling and integration between application layers.
-- Worked with relational database design and CRUD workflows for stable operations.
-- Practiced team collaboration with Git/GitHub and feature-based development.
+| Aspect | Details |
+|---|---|
+| 🎯 **Problem** | Build a complete food ordering workflow with clear menu, cart, and order tracking experience |
+| 💻 **My Role** | Developed backend business flow, API integration, and relational schema handling across ordering modules |
+| 📊 **Scale / Impact** | Delivered a full end-to-end product flow for team development and realistic academic deployment |
+| 🛠️ **Tech** | `Java` `Spring Boot` `MySQL` `REST API` `Git/GitHub` |
+| 📈 **Learning outcomes** | Improved system design mindset, transaction-aware CRUD handling, and cross-layer collaboration |
 
-**Tech used:** `Java` `Spring Boot` `MySQL` `REST API` `Git/GitHub`  
 🔗 **Repository:** [phatle224/sgu_cnpm_foodfast](https://github.com/phatle224/sgu_cnpm_foodfast)
 
 </div>
+
+###
+
+<h2 align="left">📚 Learning Path & Milestones</h2>
+
+###
+
+<p align="left">
+<b>Q1 2024:</b> Strengthened SQL fundamentals and data modeling basics<br>
+<b>Q2 2024:</b> Built backend-heavy project workflows with Java + MySQL (FoodFast)<br>
+<b>Q3 2024:</b> Started orchestration and event-driven concepts with Airflow, Kafka, RabbitMQ<br>
+<b>Q4 2024:</b> Practiced Dockerized workflows and improved reproducible development setup<br>
+<b>Now:</b> Focused on data engineering internship readiness and production-minded pipeline thinking
+</p>
 
 ###
 
@@ -127,7 +157,11 @@ A university software project focused on building a complete food ordering platf
 
 ###
 
-<h2 align="left">🤝 Connect with me</h2>
+<h2 align="left">💬 Let's talk</h2>
+
+###
+
+<p align="left">I'm open to internship opportunities and collaboration around data engineering, backend systems, and practical product-building projects.</p>
 
 ###
 
