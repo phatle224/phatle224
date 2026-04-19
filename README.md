@@ -14,8 +14,6 @@
 
 <h2 align="left">👨‍💻 About me</h2>
 
-###
-
 <br clear="both">
 
 <p align="left">🎓 I’m a final-year student majoring in Information Technology at Saigon University.<br>📊 I’m passionate about Data Engineering, Data Pipelines, and Big Data systems.<br>🚀 My goal is to become a Data Engineer and build scalable data platforms.<br>🌱 I’m currently learning: Airflow, Spark, dbt, AWS/GCP, Data Warehousing.<br>💬 Ask me about: Python, SQL, ETL, Data Modeling, Dashboarding.</p>
