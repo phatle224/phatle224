@@ -42,6 +42,8 @@
   🧠 <b>Mindset:</b> Data-quality first. Proactive in debugging consistency and performance bottlenecks.
 </p>
 
+---
+
 <h2 align="left">🛠️ Tech Stack</h2>
 
 ###
@@ -116,6 +118,7 @@
 </div>
 
 ###
+---
 
 <h2 align="left">📌 Featured Projects</h2>
 <div align="left">
@@ -136,6 +139,8 @@
 
 ###
 
+---
+
 <h2 align="left">📚 Learning Path & Milestones</h2>
 
 ###
@@ -150,6 +155,8 @@
 
 ###
 
+---
+
 <h2 align="left">📈 GitHub Stats</h2>
 
 ###
@@ -160,6 +167,8 @@
 </div>
 
 ###
+
+---
 
 <h2 align="left">💬 Let's talk</h2>
 
