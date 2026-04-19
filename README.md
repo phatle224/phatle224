@@ -8,7 +8,7 @@
 
 ###
 
-<h3 align="center">Final-year IT student at Saigon University | Building toward Data Engineering</h3>
+<h3 align="center">Turning messy data into reliable insights</h3>
 
 ###
 
@@ -19,6 +19,14 @@
 <p align="left">🎓 I’m a final-year student majoring in Information Technology at Saigon University.<br>📊 I’m passionate about Data Engineering, Data Pipelines, and Big Data systems.<br>🚀 My goal is to become a Data Engineer and build scalable data platforms.<br>🌱 I’m currently learning: Airflow, Spark, dbt, AWS/GCP, Data Warehousing.<br>💬 Ask me about: Python, SQL, ETL, Data Modeling, Dashboarding.</p>
 
 ###
+
+<h2 align="left">💡 What I bring to the table</h2>
+- 📊 Strong SQL/Python fundamentals with real project experience
+- 🔄 Understand data pipeline design from source → warehouse → dashboard
+- 🛠️ Hands-on with modern tools: Airflow, Kafka, Docker
+- 🧠 Love solving data quality & optimization problems
+
+### 
 
 <h2 align="left">🛠️ Tech Stack</h2>
 
