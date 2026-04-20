@@ -141,22 +141,6 @@
 
 ---
 
-<h2 align="left">📚 Learning Path & Milestones</h2>
-
-###
-
-<p align="left">
-<b>Q1 2024:</b> Strengthened SQL fundamentals and data modeling basics<br>
-<b>Q2 2024:</b> Built backend-heavy project workflows with Java + MySQL (FoodFast)<br>
-<b>Q3 2024:</b> Started orchestration and event-driven concepts with Airflow, Kafka, RabbitMQ<br>
-<b>Q4 2024:</b> Practiced Dockerized workflows and improved reproducible development setup<br>
-<b>Now:</b> Focused on data engineering internship readiness and production-minded pipeline thinking
-</p>
-
-###
-
----
-
 <h2 align="left">📈 GitHub Stats</h2>
 
 ###
