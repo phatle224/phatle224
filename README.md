@@ -127,11 +127,11 @@
 
 | Aspect | Details |
 |---|---|
-| 🎯 **Problem** | Build a complete food ordering workflow with clear menu, cart, and order tracking experience |
-| 💻 **My Role** | Developed backend business flow, API integration, and relational schema handling across ordering modules |
-| 📊 **Scale / Impact** | Delivered a full end-to-end product flow for team development and realistic academic deployment |
-| 🛠️ **Tech** | `Java` `Spring Boot` `MySQL` `REST API` `Git/GitHub` |
-| 📈 **Learning outcomes** | Improved system design mindset, transaction-aware CRUD handling, and cross-layer collaboration |
+| **Problem** | Build a complete food ordering workflow with clear menu, cart, and order tracking experience |
+| **My Role** | Developed backend business flow, API integration, and relational schema handling across ordering modules |
+| **Scale / Impact** | Delivered a full end-to-end product flow for team development and realistic academic deployment |
+| **Tech** | `Java` `Spring Boot` `MySQL` `REST API` `Git/GitHub` |
+| **Learning outcomes** | Improved system design mindset, transaction-aware CRUD handling, and cross-layer collaboration |
 
 🔗 **Repository:** [phatle224/sgu_cnpm_foodfast](https://github.com/phatle224/sgu_cnpm_foodfast)
 
