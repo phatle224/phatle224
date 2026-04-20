@@ -24,11 +24,11 @@
 <h2 align="left">👨‍💻 About Me</h2>
 
 <p align="left">
-  🎓 <b>Education:</b> Final-year IT student at <b>Saigon University</b>.<br>
-  📊 <b>Passion:</b> Crafting robust Data Pipelines, Big Data Architectures, and System Optimization.<br>
-  🚀 <b>Mission:</b> Transforming raw data into actionable insights through scalable platforms.<br>
-  🌱 <b>Currently Mastering:</b> Apache Airflow, Spark, dbt, and Cloud Infrastructure (AWS/GCP).<br>
-  💬 <b>Let's Talk:</b> Python, SQL, ETL/ELT, Data Modeling, and System Design.
+  <b>Education:</b> Final-year IT student at <b>Saigon University</b>.<br>
+  <b>Passion:</b> Crafting robust Data Pipelines, Big Data Architectures, and System Optimization.<br>
+  <b>Mission:</b> Transforming raw data into actionable insights through scalable platforms.<br>
+  <b>Currently Mastering:</b> Apache Airflow, Spark, dbt, and Cloud Infrastructure (AWS/GCP).<br>
+  <b>Let's Talk:</b> Python, SQL, ETL/ELT, Data Modeling, and System Design.
 </p>
 
 ---
@@ -36,10 +36,10 @@
 <h2 align="left">💡 Core Competencies</h2>
 
 <p align="left">
-  🛠️ <b>Development:</b> Strong Python & SQL fundamentals with a focus on high-performance code.<br>
-  🔄 <b>Engineering:</b> End-to-end pipeline orchestration: <i>Source ➔ Processing ➔ Storage ➔ Analytics</i>.<br>
-  📦 <b>Modern Stack:</b> Hands-on with Airflow, Kafka, RabbitMQ, Docker, and Vector Databases.<br>
-  🧠 <b>Mindset:</b> Data-quality first. Proactive in debugging consistency and performance bottlenecks.
+  <b>Development:</b> Strong Python & SQL fundamentals with a focus on high-performance code.<br>
+  <b>Engineering:</b> End-to-end pipeline orchestration: <i>Source ➔ Processing ➔ Storage ➔ Analytics</i>.<br>
+  <b>Modern Stack:</b> Hands-on with Airflow, Kafka, RabbitMQ, Docker, and Vector Databases.<br>
+  <b>Mindset:</b> Data-quality first. Proactive in debugging consistency and performance bottlenecks.
 </p>
 
 ---
