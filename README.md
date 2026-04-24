@@ -56,38 +56,9 @@
 <h3 align="left">My Tech Stack</h3>
 
 <div align="left">
-<svg width="1000" height="60" viewBox="0 0 1000 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes scroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-1120px); }
-    }
-    .scroll-container {
-      animation: scroll 40s linear infinite;
-    }
-  </style>
-  <g class="scroll-container">
-    <!-- Set 1 -->
-    <image x="0" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-    <image x="70" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-    <image x="140" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-    <image x="210" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
-    <image x="280" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
-    <image x="350" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain.svg" />
-    <image x="420" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-    <image x="490" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" />
-    <image x="560" y="10" width="40" height="40" href="https://cdn.simpleicons.org/apacheairflow/017CEE" />
-    <image x="630" y="10" width="40" height="40" href="https://cdn.simpleicons.org/rabbitmq/FF6600" />
-    <image x="700" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
-    <image x="770" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
-    <image x="840" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-    <image x="910" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-    <image x="980" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-    <image x="1050" y="10" width="40" height="40" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
-
-  </g>
-</svg>
+  <img src="./techstack.svg" width="1000" alt="Tech Stack" />
 </div>
+
 
 ###
 
