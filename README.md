@@ -13,15 +13,15 @@
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/badge/📍-Ho%20Chi%20Minh%20City-6f42c1?style=flat-square" alt="location badge" />
-  <img src="https://img.shields.io/badge/🎓-Final%20Year%20Student-2ea043?style=flat-square" alt="status badge" />
-  <img src="https://img.shields.io/badge/🎯-Data%20Engineer-1f6feb?style=flat-square" alt="goal badge" />
-  <img src="https://img.shields.io/badge/💼-Open%20for%20Internship-d29922?style=flat-square" alt="internship badge" />
+  <img src="https://img.shields.io/badge/-Ho%20Chi%20Minh%20City-6f42c1?style=flat-square" alt="location badge" />
+  <img src="https://img.shields.io/badge/-Final%20Year%20Student-2ea043?style=flat-square" alt="status badge" />
+  <img src="https://img.shields.io/badge/-Data%20Engineer-1f6feb?style=flat-square" alt="goal badge" />
+  <img src="https://img.shields.io/badge/-Open%20for%20Internship-d29922?style=flat-square" alt="internship badge" />
 </div>
 
 ###
 
-<h2 align="left">👨‍💻 About Me</h2>
+<h2 align="left">About Me</h2>
 
 <p align="left">
   <b>Education:</b> Final-year IT student at <b>Saigon University</b>.<br>
@@ -33,7 +33,7 @@
 
 ---
 
-<h2 align="left">💡 Core Competencies</h2>
+<h2 align="left">Core Competencies</h2>
 
 <p align="left">
   <b>Development:</b> Strong Python & SQL fundamentals with a focus on high-performance code.<br>
@@ -44,7 +44,7 @@
 
 ---
 
-<h2 align="left">🛠️ Tech Stack</h2>
+<h2 align="left">Tech Stack</h2>
 
 ###
 
@@ -64,7 +64,7 @@
 
 ---
 
-<h2 align="left">📌 Featured Projects</h2>
+<h2 align="left">Featured Projects</h2>
 <div align="left">
 
 ### FoodFast - Food Ordering & Management System
@@ -85,7 +85,7 @@
 
 ---
 
-<h2 align="left">📈 GitHub Stats</h2>
+<h2 align="left">GitHub Stats</h2>
 
 ###
 
@@ -98,7 +98,7 @@
 
 ---
 
-<h2 align="left">💬 Let's talk</h2>
+<h2 align="left">Let's connect</h2>
 
 ###
 
