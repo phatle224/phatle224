@@ -91,7 +91,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=phatle224&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-activity-graph-seven.vercel.app/graph?username=phatle224&radius=16&theme=material-palenight&area=true&order=5&custom_title=No%20pain%20no%20gain&v=1" height="290" alt="activity-graph graph"  />
+  <img src="https://github-activity-graph-one.vercel.app/graph?username=phatle224&radius=16&theme=material-palenight&area=true&order=5&custom_title=No%20pain%20no%20gain&v=1" height="290" alt="activity-graph graph"  />
 </div>
 
 ###
