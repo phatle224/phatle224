@@ -4,7 +4,7 @@
 
 ###
 
-<h1 align="center">Hi 👋, I'm Phát</h1>
+<h1 align="center">Hi 👋, I'm Phat</h1>
 
 ###
 
