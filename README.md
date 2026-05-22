@@ -4,7 +4,7 @@
 
 ###
 
-<h1 align="center">Hi 👋, I'm Phát</h1>
+<h1 align="center">Hi 👋, I'm Phat</h1>
 
 ###
 
@@ -66,6 +66,20 @@
 
 <h2 align="left">Featured Projects</h2>
 <div align="left">
+
+### Agent SQL - Multi-Agent NL2SQL System
+
+| Aspect | Details |
+|---|---|
+| **Problem** | Build an intelligent, enterprise-ready self-service analytics platform that translates natural language into secure SQL queries without exposing live production databases to business users. |
+| **My Role** | Developed the **Import Service & Connection Hub** supporting 7 data adapters (PostgreSQL, MySQL, MongoDB, SQLite, Redis, DuckDB, and flat files) to dynamically extract schema metadata and ingest data into Supabase; engineered asynchronous event hooks for real-time schema cache invalidation; integrated Apache Kafka for asynchronous request/response queuing; and orchestrated performance load-testing using `k6`. |
+| **Scale / Impact** | Delivered a highly secure, multi-tenant microservices architecture capable of seamless ingestion from NoSQL, relational, and column-oriented DBs with rule-based safety validation and active connection isolation. |
+| **Tech** | `Python` `FastAPI` `Apache Kafka` `PostgreSQL` `Supabase` `Redis` `MongoDB` `DuckDB` `Docker` `k6` `Trivy` |
+| **Learning outcomes** | Deepened expertise in multi-engine database adapters, microservices communication (Kafka messaging, async/await coordination), connection pooling, database security guardrails, and automated load/vulnerability scanning. |
+
+🔗 **Repository:** [ductoanoxo/Agent_SQL](https://github.com/ductoanoxo/Agent_SQL)
+
+<br/>
 
 ### FoodFast - Food Ordering & Management System
 
