@@ -81,6 +81,20 @@
 
 <br/>
 
+### AI Learning Studio - AI Digital Learning Content Platform
+
+| Aspect | Details |
+|---|---|
+| **Problem** | Traditional digital learning content creation (lectures, podcasts, interactive games) is highly time-consuming for educators, and students lack reliable, document-grounded tutoring tools. |
+| **My Role** | Architected the **Asynchronous Task Processing Pipeline** using `FastAPI`, `Celery`, and `Redis` to orchestrate multi-format content generation (automatic `.pptx` slide formatting, multi-speaker `.mp3` podcasts via TTS, and Interactive Minigames); engineered an **Advanced Hybrid RAG Pipeline** with semantic document chunking, dual search (ChromaDB Vector + BM25 keyword matching), and FlashRank re-ranking; built MinIO / Cloudflare R2 object storage connectors. |
+| **Scale / Impact** | Delivered a highly responsive, multi-worker web platform capable of processing complex files in parallel, updating job status dynamically, and handling high-concurrency learning stream workloads. |
+| **Tech** | `Python` `FastAPI` `Celery` `Redis` `MongoDB` `ChromaDB` `Next.js 14` `MinIO` `Cloudflare R2` `Docker` `GitHub Actions` |
+| **Learning outcomes** | Deepened expertise in high-concurrency background task scheduling, distributed worker patterns, vector search engineering, advanced semantic chunking, and unified object storage API design. |
+
+🔗 **Repository:** [Kietnehi/AI-FOR-EDUCATION](https://github.com/Kietnehi/AI-FOR-EDUCATION)
+
+<br/>
+
 ### FoodFast - Food Ordering & Management System
 
 | Aspect | Details |
