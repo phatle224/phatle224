@@ -67,6 +67,20 @@
 <h2 align="left">Featured Projects</h2>
 <div align="left">
 
+### Hybrid Data Ingestion & Streaming ETL Platform
+
+| Aspect | Details |
+|---|---|
+| **Problem** | Ingest real-time transactional changes (CDC) and batch offline Excel files into a unified data warehouse with zero write conflicts or schema mismatch. |
+| **My Role** | Architected the entire pipeline: constructed the CDC Consumer to parse Debezium MySQL/PostgreSQL binlog events via Apache Kafka; built the Portal Backend in FastAPI employing Factory and Strategy patterns to dynamically validate Excel formats; implemented an incremental SQL-based deduplication strategy in dbt (intermediate models) prioritizing online source updates; and orchestrated infrastructure via Docker Compose. |
+| **Scale / Impact** | Decoupled real-time write layers from reporting transformations. Standardized 7 disparate insurance schemas into a structured 11-table staging schema, processing batches via dbt every 5 minutes into a clean warehouse star schema. |
+| **Tech** | `Python` `FastAPI` `Apache Kafka` `Debezium` `dbt` `PostgreSQL` `Docker` |
+| **Learning outcomes** | Mastered real-time change data capture mechanics, event-driven backpressure management, dbt incremental modeling patterns, OOP pattern applications in API ingestion services, and automated SQL-based cross-deduplication. |
+
+🔗 **Repository:** [phatle224/Hybrid-Data-Ingestion-Streaming-Platform](https://github.com/phatle224/Hybrid-Data-Ingestion-Streaming-Platform)
+
+<br/>
+
 ### Agent SQL - Multi-Agent NL2SQL System
 
 | Aspect | Details |
@@ -92,20 +106,6 @@
 | **Learning outcomes** | Deepened expertise in high-concurrency background task scheduling, distributed worker patterns, vector search engineering, advanced semantic chunking, and unified object storage API design. |
 
 🔗 **Repository:** [Kietnehi/AI-FOR-EDUCATION](https://github.com/Kietnehi/AI-FOR-EDUCATION)
-
-<br/>
-
-### FoodFast - Food Ordering & Management System
-
-| Aspect | Details |
-|---|---|
-| **Problem** | Build a complete food ordering workflow with clear menu, cart, and order tracking experience |
-| **My Role** | Developed backend business flow, API integration, and relational schema handling across ordering modules |
-| **Scale / Impact** | Delivered a full end-to-end product flow for team development and realistic academic deployment |
-| **Tech** | `Java` `Spring Boot` `MySQL` `REST API` `Git/GitHub` |
-| **Learning outcomes** | Improved system design mindset, transaction-aware CRUD handling, and cross-layer collaboration |
-
-🔗 **Repository:** [phatle224/sgu_cnpm_foodfast](https://github.com/phatle224/sgu_cnpm_foodfast)
 
 </div>
 
