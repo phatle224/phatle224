@@ -72,10 +72,10 @@
 | Aspect | Details |
 |---|---|
 | **Problem** | Ingest real-time transactional changes (CDC) and batch offline Excel files into a unified data warehouse with zero write conflicts or schema mismatch. |
-| **My Role** | Architected the entire pipeline: constructed the CDC Consumer to parse Debezium MySQL/PostgreSQL binlog events via Apache Kafka; built the Portal Backend in FastAPI employing Factory and Strategy patterns to dynamically validate Excel formats; implemented an incremental SQL-based deduplication strategy in dbt (intermediate models) prioritizing online source updates; and orchestrated infrastructure via Docker Compose. |
-| **Scale / Impact** | Decoupled real-time write layers from reporting transformations. Standardized 7 disparate insurance schemas into a structured 11-table staging schema, processing batches via dbt every 5 minutes into a clean warehouse star schema. |
-| **Tech** | `Python` `FastAPI` `Apache Kafka` `Debezium` `dbt` `PostgreSQL` `Docker` |
-| **Learning outcomes** | Mastered real-time change data capture mechanics, event-driven backpressure management, dbt incremental modeling patterns, OOP pattern applications in API ingestion services, and automated SQL-based cross-deduplication. |
+| **My Role** | Architected the entire pipeline: constructed the CDC Consumer to parse Debezium PostgreSQL binlog events via Apache Kafka; built the Portal Backend in FastAPI employing Factory and Strategy patterns to dynamically validate Excel formats; implemented an incremental SQL-based deduplication strategy in dbt; deployed a containerized observability stack (Prometheus, Grafana, Kafka/PostgreSQL Exporters) for real-time consumer lag monitoring; and established a comprehensive dbt testing framework for data quality assurance. |
+| **Scale / Impact** | Decoupled real-time write layers from reporting transformations. Standardized 7 disparate insurance schemas into a structured 11-table staging schema, processing batches via dbt every 5 minutes. Implemented 54 automated tests across 3 processing layers and established real-time monitoring of broker lag, database transaction rates, and pool status. |
+| **Tech** | `Python` `FastAPI` `Apache Kafka` `Debezium` `dbt` `PostgreSQL` `Prometheus` `Grafana` `Docker` |
+| **Learning outcomes** | Mastered real-time change data capture mechanics, event-driven backpressure management, dbt incremental modeling & data quality testing patterns, application of OOP design patterns in API services, and Prometheus/Grafana exporter architecture for platform observability. |
 
 🔗 **Repository:** [phatle224/Hybrid-Data-Ingestion-Streaming-Platform](https://github.com/phatle224/Hybrid-Data-Ingestion-Streaming-Platform)
 
