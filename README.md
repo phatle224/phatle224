@@ -24,11 +24,11 @@
 <h2 align="left">About Me</h2>
 
 <p align="left">
-  <b>Education:</b> Final-year IT student at <b>Saigon University</b>.<br>
-  <b>Passion:</b> Crafting robust Data Pipelines, Big Data Architectures, and System Optimization.<br>
-  <b>Mission:</b> Transforming raw data into actionable insights through scalable platforms.<br>
+  <b>Experience:</b> Data Engineer with 9 months of production experience at <b>AFFINA Insurance</b>.<br>
+  <b>Education:</b> IT Student at <b>Saigon University</b> (GPA: 7.4/10, 3x Academic Excellence Scholarship).<br>
+  <b>Passion:</b> Crafting robust Data Pipelines, Big Data Architectures, and System Optimization (reduced latency from daily-batch to &lt;2s).<br>
   <b>Currently Mastering:</b> Apache Airflow, Spark, dbt, and Cloud Infrastructure (AWS/GCP).<br>
-  <b>Let's Talk:</b> Python, SQL, ETL/ELT, Data Modeling, and System Design.
+  <b>Let's Talk:</b> Python, SQL, CDC, ETL/ELT, Stream/Batch Processing, Data Modeling, and System Design.
 </p>
 
 ---
@@ -41,6 +41,19 @@
   <b>Modern Stack:</b> Hands-on with Airflow, Kafka, RabbitMQ, Docker, and Vector Databases.<br>
   <b>Mindset:</b> Data-quality first. Proactive in debugging consistency and performance bottlenecks.
 </p>
+
+---
+
+<h2 align="left">Work Experience</h2>
+
+### Data Engineer Intern | **AFFINA Insurance** _(Sep 2025 - May 2026)_
+
+* **Data Platform Architecture (Phase 1):** Built the end-to-end data platform capturing real-time MySQL CDC events via Debezium and scheduled Excel data, consolidating them into staging tables and normalized marts with under 2-second ingestion latency.
+* **Enterprise Data Consolidation (Phase 2):** Evolved the platform to resolve complex online-offline data integration issues; implemented custom Contract Pre-Processing and a Policy Parser to standardize schema discrepancies (e.g., splitting multi-insured contracts, mapping default beneficiaries), standardizing data across 50+ contract variants and enabling consistent policy reporting across business units.
+* **Idempotency & Deduplication:** Designed a real-time deduplication component utilizing Redis Contract Caching to track and validate record uniqueness, ensuring zero data loss and exact-once insertion into the Operational Data Store.
+* **Event-Driven Architecture:** Designed RabbitMQ event routing topology for 5 downstream consumer applications, implementing at-least-once delivery semantics and decoupling the core data platform from business-layer consumers — enabling independent scaling of each processing pipeline.
+
+*Tech Stack used:* `MySQL` • `Debezium` • `Apache Kafka` • `RabbitMQ` • `Redis` • `FastAPI` • `dbt` • `PostgreSQL` • `Docker`
 
 ---
 
@@ -105,7 +118,7 @@
 | **Tech** | `Python` `FastAPI` `Apache Kafka` `Debezium` `dbt` `PostgreSQL` `Prometheus` `Grafana` `Docker` |
 | **Learning outcomes** | Mastered real-time change data capture mechanics, event-driven backpressure management, dbt incremental modeling & data quality testing patterns, application of OOP design patterns in API services, and Prometheus/Grafana exporter architecture for platform observability. |
 
-🔗 **Repository:** [phatle224/Hybrid-Data-Ingestion-Streaming-Platform](https://github.com/phatle224/Hybrid-Data-Ingestion-Streaming-Platform)
+🔗 **Repository:** [phatle224/Hybrid-Data-Ingestion-Streaming-Platform](https://github.com/phatle224/hybrid-data-ingestion-streaming-platform)
 
 <br/>
 
@@ -122,6 +135,20 @@
 🔗 **Repository:** [ductoanoxo/Agent_SQL](https://github.com/ductoanoxo/Agent_SQL)
 
 </div>
+
+---
+
+<h2 align="left">Education & Certifications</h2>
+
+### Education
+* **Saigon University (SGU)** — Bachelor of Information Technology *(2022 - Present, Expected 2027)*
+  * **Academic Excellence Scholarship** — 3 consecutive semesters (HK1 2025 - HK1 2026). GPA: 7.4/10.
+  * *Relevant Coursework:* Database Systems, Data Structures & Algorithms, Big Data Technologies, Software Engineering.
+
+### Certifications & Credentials
+* 🎓 **IBM Data Engineering Professional Certificate** — *Coursera / IBM*
+* 📊 **IBM Data Analyst Professional Certificate** — *Coursera / IBM*
+* 💻 **SQL (Advanced) Certificate** — *HackerRank*
 
 ###
 
@@ -149,6 +176,9 @@
 ###
 
 <div align="center">
+  <a href="https://phatle-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=vercel&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio logo"  />
+  </a>
   <a href="https://www.linkedin.com/in/phat-le-674640330/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
