@@ -67,6 +67,34 @@
 <h2 align="left">Featured Projects</h2>
 <div align="left">
 
+### Data Platform Governance & Observability Stack
+
+| Aspect | Details |
+|---|---|
+| **Problem** | Raw data assets (PostgreSQL, ClickHouse, Trino) lack metadata indexing, lineage visibility, and testing. Troubleshooting batch/streaming pipeline failures or SLO breaches requires manually SSH-ing to inspect isolated docker container logs. |
+| **My Role** | Deployed OpenMetadata cataloging with MySQL/ES storage; integrated OpenLineage to automatically map runtime transformations from Airflow to cataloged assets; designed a multi-layer dbt pipeline (staging views to mart tables) with 17 data quality assertions; configured Prometheus metrics collection via StatsD to trigger Slack alerts on pipeline failures or SLO breaches (duration > 5 mins) using custom AlertManager templates; built Promtail and Loki log collectors to auto-discover and label Docker logs in Grafana. |
+| **Scale / Impact** | Unified 14 dockerized services into a single bridged governance network. Automated E2E cataloging and data lineage graphs across 3 heterogeneous databases. Triggered alert notifications to Slack within 30 seconds of incidents. Reduced system debugging times from server-level logs to single LogQL queries. |
+| **Tech** | `OpenMetadata` `Apache Airflow` `dbt` `OpenLineage` `Prometheus` `AlertManager` `Grafana Loki` `Promtail` `Docker` `Slack API` |
+| **Learning outcomes** | Mastered enterprise metadata ingestion & lineage standardization, microservice metrics/log collection architectures, pipeline SLO monitoring, threshold alerting systems, and cross-project Docker networks. |
+
+🔗 **Repository:** [phatle224/data-platform-governance](https://github.com/phatle224/data-platform-governance)
+
+<br/>
+
+### FMCG Real-Time Analytics Platform
+
+| Aspect | Details |
+|---|---|
+| **Problem** | Traditional FMCG retail analysis relies on daily batch pipelines, delaying critical operational updates (e.g. stock replenishment, promotion monitoring) by 24+ hours. |
+| **My Role** | Architected a dual-path (Hot/Cold) analytics platform. Configured ClickHouse Kafka Engine to ingest streaming transaction events directly from Kafka into MergeTree tables. Created Materialized Views on SummingMergeTrees for pre-aggregations. Set up Kafka Connect S3 Sink to archive raw streams to MinIO as Parquet files. Integrated Trino to enable federated queries joining ClickHouse (hot) and Iceberg/MinIO (cold) datasets. Built a Cube.js semantic layer serving Prometheus-monitored metrics to Grafana. |
+| **Scale / Impact** | Handled peak workloads of 1,000 transactions/second. Reduced dashboard update lag from 24 hours to sub-2 seconds. Optimized dashboard query response times from 12s (PostgreSQL) to sub-50ms on 10M+ records. |
+| **Tech** | `Python` `FastAPI` `Apache Kafka` `ClickHouse` `MinIO` `Apache Iceberg` `Trino` `Cube.js` `Grafana` `Docker` |
+| **Learning outcomes** | Mastered Hot/Cold path architectural designs, OLAP indexing (MergeTree index granularity, sparse indexes), Apache Iceberg schema and partition evolution, Trino query execution plans and pushdown optimization, semantic caching in Cube.js, and stream processing instrumentation. |
+
+🔗 **Repository:** [phatle224/fmcg-real-time-analytics](https://github.com/phatle224/fmcg-real-time-analytics)
+
+<br/>
+
 ### Hybrid Data Ingestion & Streaming ETL Platform
 
 | Aspect | Details |
@@ -92,20 +120,6 @@
 | **Learning outcomes** | Deepened expertise in multi-engine database adapters, microservices communication (Kafka messaging, async/await coordination), connection pooling, database security guardrails, and automated load/vulnerability scanning. |
 
 🔗 **Repository:** [ductoanoxo/Agent_SQL](https://github.com/ductoanoxo/Agent_SQL)
-
-<br/>
-
-### Data Platform Governance & Observability Stack
-
-| Aspect | Details |
-|---|---|
-| **Problem** | Raw data assets (PostgreSQL, ClickHouse, Trino) lack metadata indexing, lineage visibility, and testing. Troubleshooting batch/streaming pipeline failures or SLO breaches requires manually SSH-ing to inspect isolated docker container logs. |
-| **My Role** | Deployed OpenMetadata cataloging with MySQL/ES storage; integrated OpenLineage to automatically map runtime transformations from Airflow to cataloged assets; designed a multi-layer dbt pipeline (staging views to mart tables) with 17 data quality assertions; configured Prometheus metrics collection via StatsD to trigger Slack alerts on pipeline failures or SLO breaches (duration > 5 mins) using custom AlertManager templates; built Promtail and Loki log collectors to auto-discover and label Docker logs in Grafana. |
-| **Scale / Impact** | Unified 14 dockerized services into a single bridged governance network. Automated E2E cataloging and data lineage graphs across 3 heterogeneous databases. Triggered alert notifications to Slack within 30 seconds of incidents. Reduced system debugging times from server-level logs to single LogQL queries. |
-| **Tech** | `OpenMetadata` `Apache Airflow` `dbt` `OpenLineage` `Prometheus` `AlertManager` `Grafana Loki` `Promtail` `Docker` `Slack API` |
-| **Learning outcomes** | Mastered enterprise metadata ingestion & lineage standardization, microservice metrics/log collection architectures, pipeline SLO monitoring, threshold alerting systems, and cross-project Docker networks. |
-
-🔗 **Repository:** [phatle224/data-platform-governance](https://github.com/phatle224/data-platform-governance)
 
 </div>
 
