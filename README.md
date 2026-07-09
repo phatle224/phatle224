@@ -25,9 +25,9 @@
 
 <p align="left">
   <b>Experience:</b> Data Engineer with 9 months of production experience at <b>AFFINA Insurance</b>.<br>
-  <b>Education:</b> IT Student at <b>Saigon University</b> (GPA: 7.4/10, 3x Academic Excellence Scholarship).<br>
+  <b>Education:</b> IT Student at <b>Saigon University</b>.<br>
   <b>Passion:</b> Crafting robust Data Pipelines, Big Data Architectures, and System Optimization (reduced latency from daily-batch to &lt;2s).<br>
-  <b>Currently Mastering:</b> Apache Airflow, Spark, dbt, and Cloud Infrastructure (AWS/GCP).<br>
+  <b>Currently Mastering:</b> Apache Airflow, Spark, and dbt.<br>
   <b>Let's Talk:</b> Python, SQL, CDC, ETL/ELT, Stream/Batch Processing, Data Modeling, and System Design.
 </p>
 
@@ -53,7 +53,7 @@
 * **Idempotency & Deduplication:** Designed a real-time deduplication component utilizing Redis Contract Caching to track and validate record uniqueness, ensuring zero data loss and exact-once insertion into the Operational Data Store.
 * **Event-Driven Architecture:** Designed RabbitMQ event routing topology for 5 downstream consumer applications, implementing at-least-once delivery semantics and decoupling the core data platform from business-layer consumers — enabling independent scaling of each processing pipeline.
 
-*Tech Stack used:* `MySQL` • `Debezium` • `Apache Kafka` • `RabbitMQ` • `Redis` • `FastAPI` • `dbt` • `PostgreSQL` • `Docker`
+*Tech Stack used:* `MySQL` • `Debezium` • `Apache Kafka` • `RabbitMQ` • `Redis` • `Docker`
 
 ---
 
@@ -135,22 +135,6 @@
 🔗 **Repository:** [ductoanoxo/Agent_SQL](https://github.com/ductoanoxo/Agent_SQL)
 
 </div>
-
----
-
-<h2 align="left">Education & Certifications</h2>
-
-### Education
-* **Saigon University (SGU)** — Bachelor of Information Technology *(2022 - Present, Expected 2027)*
-  * **Academic Excellence Scholarship** — 3 consecutive semesters (HK1 2025 - HK1 2026). GPA: 7.4/10.
-  * *Relevant Coursework:* Database Systems, Data Structures & Algorithms, Big Data Technologies, Software Engineering.
-
-### Certifications & Credentials
-* 🎓 **IBM Data Engineering Professional Certificate** — *Coursera / IBM*
-* 📊 **IBM Data Analyst Professional Certificate** — *Coursera / IBM*
-* 💻 **SQL (Advanced) Certificate** — *HackerRank*
-
-###
 
 ---
 
