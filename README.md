@@ -95,17 +95,17 @@
 
 <br/>
 
-### AI Learning Studio - AI Digital Learning Content Platform
+### Data Platform Governance & Observability Stack
 
 | Aspect | Details |
 |---|---|
-| **Problem** | Traditional digital learning content creation (lectures, podcasts, interactive games) is highly time-consuming for educators, and students lack reliable, document-grounded tutoring tools. |
-| **My Role** | Architected the **Asynchronous Task Processing Pipeline** using `FastAPI`, `Celery`, and `Redis` to orchestrate multi-format content generation (automatic `.pptx` slide formatting, multi-speaker `.mp3` podcasts via TTS, and Interactive Minigames); engineered an **Advanced Hybrid RAG Pipeline** with semantic document chunking, dual search (ChromaDB Vector + BM25 keyword matching), and FlashRank re-ranking; built MinIO / Cloudflare R2 object storage connectors. |
-| **Scale / Impact** | Delivered a highly responsive, multi-worker web platform capable of processing complex files in parallel, updating job status dynamically, and handling high-concurrency learning stream workloads. |
-| **Tech** | `Python` `FastAPI` `Celery` `Redis` `MongoDB` `ChromaDB` `Next.js 14` `MinIO` `Cloudflare R2` `Docker` `GitHub Actions` |
-| **Learning outcomes** | Deepened expertise in high-concurrency background task scheduling, distributed worker patterns, vector search engineering, advanced semantic chunking, and unified object storage API design. |
+| **Problem** | Raw data assets (PostgreSQL, ClickHouse, Trino) lack metadata indexing, lineage visibility, and testing. Troubleshooting batch/streaming pipeline failures or SLO breaches requires manually SSH-ing to inspect isolated docker container logs. |
+| **My Role** | Deployed OpenMetadata cataloging with MySQL/ES storage; integrated OpenLineage to automatically map runtime transformations from Airflow to cataloged assets; designed a multi-layer dbt pipeline (staging views to mart tables) with 17 data quality assertions; configured Prometheus metrics collection via StatsD to trigger Slack alerts on pipeline failures or SLO breaches (duration > 5 mins) using custom AlertManager templates; built Promtail and Loki log collectors to auto-discover and label Docker logs in Grafana. |
+| **Scale / Impact** | Unified 14 dockerized services into a single bridged governance network. Automated E2E cataloging and data lineage graphs across 3 heterogeneous databases. Triggered alert notifications to Slack within 30 seconds of incidents. Reduced system debugging times from server-level logs to single LogQL queries. |
+| **Tech** | `OpenMetadata` `Apache Airflow` `dbt` `OpenLineage` `Prometheus` `AlertManager` `Grafana Loki` `Promtail` `Docker` `Slack API` |
+| **Learning outcomes** | Mastered enterprise metadata ingestion & lineage standardization, microservice metrics/log collection architectures, pipeline SLO monitoring, threshold alerting systems, and cross-project Docker networks. |
 
-🔗 **Repository:** [Kietnehi/AI-FOR-EDUCATION](https://github.com/Kietnehi/AI-FOR-EDUCATION)
+🔗 **Repository:** [phatle224/data-platform-governance](https://github.com/phatle224/data-platform-governance)
 
 </div>
 
