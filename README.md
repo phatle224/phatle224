@@ -151,7 +151,7 @@
 | **Tech** | `Python` `FastAPI` `Apache Kafka` `PostgreSQL` `Supabase` `Redis` `MongoDB` `DuckDB` `Docker` `k6` `Trivy` |
 | **Learning outcomes** | Deepened expertise in multi-engine database adapters, microservices communication (Kafka messaging, async/await coordination), connection pooling, database security guardrails, and automated load/vulnerability scanning. |
 
-🔗 **Repository:** [ductoanoxo/Agent_SQL](https://github.com/ductoanoxo/Agent_SQL)
+🔗 **Repository:** [phatle224/Agent_SQL](https://github.com/phatle224/Agent_SQL)
 
 </div>
 
