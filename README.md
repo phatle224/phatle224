@@ -26,7 +26,7 @@
 <p align="left">
   <b>Experience:</b> Data Engineer with 9 months of production experience at <b>AFFINA Insurance</b>.<br>
   <b>Education:</b> IT Student at <b>Saigon University</b>.<br>
-  <b>Passion:</b> Crafting robust Data Pipelines, Big Data Architectures, and System Optimization (reduced latency from daily-batch to &lt;2s).<br>
+  <b>Passion:</b> Crafting reliable data pipelines, analytics-ready models, and maintainable event-driven systems.<br>
   <b>Currently Mastering:</b> Apache Airflow, Spark, and dbt.<br>
   <b>Let's Talk:</b> Python, SQL, CDC, ETL/ELT, Stream/Batch Processing, Data Modeling, and System Design.
 </p>
@@ -48,12 +48,12 @@
 
 ### Data Engineer Intern | **AFFINA Insurance** _(Sep 2025 - May 2026)_
 
-* **Data Platform Architecture (Phase 1):** Built the end-to-end data platform capturing real-time MySQL CDC events via Debezium and scheduled Excel data, consolidating them into staging tables and normalized marts with under 2-second ingestion latency.
-* **Enterprise Data Consolidation (Phase 2):** Evolved the platform to resolve complex online-offline data integration issues; implemented custom Contract Pre-Processing and a Policy Parser to standardize schema discrepancies (e.g., splitting multi-insured contracts, mapping default beneficiaries), standardizing data across 50+ contract variants and enabling consistent policy reporting across business units.
-* **Idempotency & Deduplication:** Designed a real-time deduplication component utilizing Redis Contract Caching to track and validate record uniqueness, ensuring zero data loss and exact-once insertion into the Operational Data Store.
-* **Event-Driven Architecture:** Designed RabbitMQ event routing topology for 5 downstream consumer applications, implementing at-least-once delivery semantics and decoupling the core data platform from business-layer consumers — enabling independent scaling of each processing pipeline.
+* **CDC Data Platform:** Implemented the MySQL CDC path with Debezium/Kafka and Python consumers from source topics through staging and reporting writes, handling insert, update, and delete events with schema-aware upserts.
+* **Excel Ingestion & Standardization:** Built a FastAPI upload flow for seven offline insurance groups, using type-specific mappings and processors to normalize headers, dates, amounts, payer/insured fields, and validate business fields before staging writes.
+* **Redis Deduplication:** Implemented duplicate handling that evolved from a four-field helper to normalized seven-field keys (`contractId`, `peopleName/name`, `majorName`, `companyProviderName`, `startDate`, `endDate`, `feeInsurance`), with online records taking precedence.
+* **Event-Driven Integration:** Implemented RabbitMQ publishing and topology with a topic exchange, durable `doc_ocr_queue`, dead-letter queue, persistent JSON messages, and reconnect/retry handling; downstream OCR consumption was outside this repository.
 
-*Tech Stack used:* `MySQL` • `Debezium` • `Apache Kafka` • `RabbitMQ` • `Redis` • `Docker`
+*Tech Stack used:* `Python` • `FastAPI` • `MySQL` • `Debezium` • `Apache Kafka` • `RabbitMQ` • `Redis` • `Docker`
 
 ---
 
@@ -80,6 +80,21 @@
 <h2 align="left">Featured Projects</h2>
 <div align="left">
 
+### Hybrid Data Ingestion & Streaming ELT Platform
+
+| Aspect | Details |
+|---|---|
+| **Context** | Independent re-implementation of an ingestion pattern from my internship, rebuilt from scratch with synthetic Faker data; no company code or production data was used. |
+| **My Role** | Combined PostgreSQL CDC based on WAL/logical decoding with Excel batch ingestion through FastAPI, then designed a four-layer dbt ELT pipeline. Implemented cross-channel deduplication with composite business keys and `ROW_NUMBER()` so online records take precedence over offline duplicates. |
+| **Architecture** | 21 dbt models across 10 staging, 2 intermediate, 7 warehouse, and 2 mart models; local observability services for pipeline and database metrics. |
+| **Verification** | 101 configured dbt tests. The latest local snapshot reports 95 pass, 2 warnings, and 4 documented synthetic-data failures; no production data is used. |
+| **Tech** | `Python` `FastAPI` `Apache Kafka` `Debezium` `PostgreSQL` `dbt` `Prometheus` `Grafana` `Docker` |
+| **Learning outcomes** | Practiced PostgreSQL WAL-based CDC, Kafka event flows, dbt ELT modeling and testing, schema-aware batch ingestion, cross-channel deduplication, and synthetic-data safety. |
+
+🔗 **Repository:** [phatle224/hybrid-data-ingestion-streaming-platform](https://github.com/phatle224/hybrid-data-ingestion-streaming-platform)
+
+<br/>
+
 ### PitchFlow - Reliable Football Data Lakehouse
 
 | Aspect | Details |
@@ -91,20 +106,6 @@
 | **Learning outcomes** | Mastered Delta Lake ACID transactions & MERGE semantics, PySpark schema evolution, Medallion storage layout, chaos testing patterns for data pipelines, and Airflow orchestration. |
 
 🔗 **Repository:** [phatle224/pitchflow-reliable-football-data-lakehouse](https://github.com/phatle224/pitchflow-reliable-football-data-lakehouse)
-
-<br/>
-
-### Hybrid Data Ingestion & Streaming ETL Platform
-
-| Aspect | Details |
-|---|---|
-| **Problem** | Ingest real-time transactional changes (CDC) and batch offline Excel files into a unified data warehouse with zero write conflicts or schema mismatch. |
-| **My Role** | Architected the entire pipeline: constructed the CDC Consumer to parse Debezium PostgreSQL binlog events via Apache Kafka; built the Portal Backend in FastAPI employing Factory and Strategy patterns to dynamically validate Excel formats; implemented an incremental SQL-based deduplication strategy in dbt; deployed a containerized observability stack (Prometheus, Grafana, Kafka/PostgreSQL Exporters) for real-time consumer lag monitoring; and established a comprehensive dbt testing framework for data quality assurance. |
-| **Scale / Impact** | Decoupled real-time write layers from reporting transformations. Standardized 7 disparate insurance schemas into a structured 11-table staging schema, processing batches via dbt every 5 minutes. Implemented 54 automated tests across 3 processing layers and established real-time monitoring of broker lag, database transaction rates, and pool status. |
-| **Tech** | `Python` `FastAPI` `Apache Kafka` `Debezium` `dbt` `PostgreSQL` `Prometheus` `Grafana` `Docker` |
-| **Learning outcomes** | Mastered real-time change data capture mechanics, event-driven backpressure management, dbt incremental modeling & data quality testing patterns, application of OOP design patterns in API services, and Prometheus/Grafana exporter architecture for platform observability. |
-
-🔗 **Repository:** [phatle224/hybrid-data-ingestion-streaming-platform](https://github.com/phatle224/hybrid-data-ingestion-streaming-platform)
 
 <br/>
 
