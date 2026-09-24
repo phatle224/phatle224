@@ -93,7 +93,6 @@
 
 🔗 **Repository:** [phatle224/hybrid-data-ingestion-streaming-platform](https://github.com/phatle224/hybrid-data-ingestion-streaming-platform)
 
-<br/>
 
 ### InsightMesh - Privacy-Bounded NL2SQL Analytics Platform
 
@@ -106,7 +105,6 @@
 
 🔗 **Repository:** [phatle224/insightmesh-multi-source-analytics](https://github.com/phatle224/insightmesh-multi-source-analytics)
 
-<br/>
 
 ### Data Platform Governance & Observability Stack
 
@@ -133,7 +131,6 @@ Medallion Delta Lakehouse for 380 StatsBomb matches with idempotent ingestion, A
 
 🔗 [Repository](https://github.com/phatle224/pitchflow-reliable-football-data-lakehouse)
 
-<br/>
 
 ### FMCG Real-Time Analytics Platform
 
@@ -141,7 +138,6 @@ Hot/cold FMCG analytics platform for 1,000 POS transactions per second with Clic
 
 🔗 **Repository:** [phatle224/fmcg-real-time-analytics](https://github.com/phatle224/fmcg-real-time-analytics)
 
-<br/>
 
 ### Agent SQL - Multi-Agent NL2SQL System
 
@@ -149,7 +145,6 @@ Multi-agent NL2SQL platform with seven data adapters, Kafka workflows, and rule-
 
 🔗 **Repository:** [phatle224/Agent_SQL](https://github.com/phatle224/Agent_SQL)
 
-<br/>
 
 ### WordMesh Vocabulary Platform
 
@@ -157,7 +152,6 @@ Full-stack English vocabulary workspace for lookup, enrichment, spaced repetitio
 
 🔗 [Repository](https://github.com/phatle224/wordmesh-vocab-builder)
 
-<br/>
 
 ### AI for Education Platform
 
