@@ -125,39 +125,13 @@
 <h2 align="left">📌 Pinned Repositories</h2>
 <div align="left">
 
-### PitchFlow - Reliable Football Data Lakehouse
-
-Medallion Delta Lakehouse for 380 StatsBomb matches with idempotent ingestion, Airflow orchestration, and Metabase analytics.
-
-🔗 [Repository](https://github.com/phatle224/pitchflow-reliable-football-data-lakehouse)
-
-
-### FMCG Real-Time Analytics Platform
-
-Hot/cold FMCG analytics platform for 1,000 POS transactions per second with ClickHouse, Kafka, Iceberg, Trino, and Cube.js.
-
-🔗 **Repository:** [phatle224/fmcg-real-time-analytics](https://github.com/phatle224/fmcg-real-time-analytics)
-
-
-### Agent SQL - Multi-Agent NL2SQL System
-
-Multi-agent NL2SQL platform with seven data adapters, Kafka workflows, and rule-based safety isolation.
-
-🔗 **Repository:** [phatle224/Agent_SQL](https://github.com/phatle224/Agent_SQL)
-
-
-### WordMesh Vocabulary Platform
-
-Full-stack English vocabulary workspace for lookup, enrichment, spaced repetition, and learner progress.
-
-🔗 [Repository](https://github.com/phatle224/wordmesh-vocab-builder)
-
-
-### AI for Education Platform
-
-Collaborative LLM platform for intelligent tutoring, grading assistance, and personalized curriculum generation.
-
-🔗 [Repository](https://github.com/phatle224/AI-FOR-EDUCATION)
+| Project | Short description | Repository |
+|---|---|---|
+| **PitchFlow** | Medallion Delta Lakehouse for 380 StatsBomb matches with idempotent ingestion, Airflow, and Metabase. | [Repo](https://github.com/phatle224/pitchflow-reliable-football-data-lakehouse) |
+| **FMCG** | Hot/cold analytics platform for 1,000 POS transactions per second with ClickHouse, Kafka, Iceberg, Trino, and Cube.js. | [Repo](https://github.com/phatle224/fmcg-real-time-analytics) |
+| **Agent SQL** | Multi-agent NL2SQL platform with seven data adapters, Kafka workflows, and rule-based safety isolation. | [Repo](https://github.com/phatle224/Agent_SQL) |
+| **WordMesh** | Full-stack English vocabulary workspace for lookup, enrichment, spaced repetition, and learner progress. | [Repo](https://github.com/phatle224/wordmesh-vocab-builder) |
+| **AI for Education** | Collaborative LLM platform for intelligent tutoring, grading assistance, and personalized curriculum generation. | [Repo](https://github.com/phatle224/AI-FOR-EDUCATION) |
 
 </div>
 
