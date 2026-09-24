@@ -95,17 +95,16 @@
 
 <br/>
 
-### PitchFlow - Reliable Football Data Lakehouse
+### InsightMesh - Privacy-Bounded NL2SQL Analytics Platform
 
 | Aspect | Details |
 |---|---|
-| **Problem** | Ingesting high-volume, event-level football data (e.g. StatsBomb Premier League) often leads to silent data corruption, non-idempotent pipeline retries, and broken analytics dashboards when malformed or duplicate data arrives. |
-| **My Role** | Architected a local production-grade football data lakehouse implementing Medallion Architecture (Bronze-Silver-Gold Delta Lake on MinIO); designed controlled chaos testing with Quarantine routing for malformed/duplicate records; engineered idempotent Delta merges and PostgreSQL serving projections; orchestrated end-to-end Airflow DAGs; and built Metabase analytics dashboards. |
-| **Scale / Impact** | Processed 380 matches (StatsBomb PL 2015/16) and millions of event records with strict schema enforcement and zero-loss idempotency. Automatically isolated bad data into Quarantine tables without crashing the main processing pipeline. |
-| **Tech** | `Python` `PySpark` `Delta Lake` `Apache Airflow` `MinIO (S3)` `PostgreSQL` `Metabase` `Docker` |
-| **Learning outcomes** | Mastered Delta Lake ACID transactions & MERGE semantics, PySpark schema evolution, Medallion storage layout, chaos testing patterns for data pipelines, and Airflow orchestration. |
+| **What I built** | Local-first natural-language analytics for read-only PostgreSQL and MySQL, combining schema-aware retrieval, dialect-aware SQL generation, SQLGlot safety validation, verified execution, saved analyses, and dashboards. |
+| **Measured scope** | 37 self-authored cases across PostgreSQL and MySQL variants of a six-table demo e-commerce schema. Status, execution, result, recall, and join-path accuracy were 100%; mean entity precision was 66.98%; all 5/5 unsafe cases were blocked. |
+| **Model provenance** | Gemini 2.5 Flash was configured as primary, but the committed run used OpenRouter `openai/gpt-4o-mini` for all 27 SQL generations after Gemini timeout/rate-limit fallback. |
+| **Tech** | `Python` `FastAPI` `PostgreSQL` `MySQL` `pgvector` `SQLGlot` `Next.js` `TypeScript` `Docker` |
 
-🔗 **Repository:** [phatle224/pitchflow-reliable-football-data-lakehouse](https://github.com/phatle224/pitchflow-reliable-football-data-lakehouse)
+🔗 **Repository:** [phatle224/insightmesh-multi-source-analytics](https://github.com/phatle224/insightmesh-multi-source-analytics)
 
 <br/>
 
@@ -128,15 +127,17 @@
 <h2 align="left">📌 Pinned Repositories</h2>
 <div align="left">
 
+### PitchFlow - Reliable Football Data Lakehouse
+
+Medallion Delta Lakehouse for 380 StatsBomb matches with idempotent ingestion, Airflow orchestration, and Metabase analytics.
+
+🔗 [Repository](https://github.com/phatle224/pitchflow-reliable-football-data-lakehouse)
+
+<br/>
+
 ### FMCG Real-Time Analytics Platform
 
-| Aspect | Details |
-|---|---|
-| **Problem** | Traditional FMCG retail analysis relies on daily batch pipelines, delaying critical operational updates (e.g. stock replenishment, promotion monitoring) by 24+ hours. |
-| **My Role** | Architected a dual-path (Hot/Cold) analytics platform. Configured ClickHouse Kafka Engine to ingest streaming transaction events directly from Kafka into MergeTree tables. Created Materialized Views on SummingMergeTrees for pre-aggregations. Set up Kafka Connect S3 Sink to archive raw streams to MinIO as Parquet files. Integrated Trino to enable federated queries joining ClickHouse (hot) and Iceberg/MinIO (cold) datasets. Built a Cube.js semantic layer serving Prometheus-monitored metrics to Grafana. |
-| **Scale / Impact** | Handled peak workloads of 1,000 transactions/second. Reduced dashboard update lag from 24 hours to sub-2 seconds. Optimized dashboard query response times from 12s (PostgreSQL) to sub-50ms on 10M+ records. |
-| **Tech** | `Python` `FastAPI` `Apache Kafka` `ClickHouse` `MinIO` `Apache Iceberg` `Trino` `Cube.js` `Grafana` `Docker` |
-| **Learning outcomes** | Mastered Hot/Cold path architectural designs, OLAP indexing (MergeTree index granularity, sparse indexes), Apache Iceberg schema and partition evolution, Trino query execution plans and pushdown optimization, semantic caching in Cube.js, and stream processing instrumentation. |
+Hot/cold FMCG analytics platform for 1,000 POS transactions per second with ClickHouse, Kafka, Iceberg, Trino, and Cube.js.
 
 🔗 **Repository:** [phatle224/fmcg-real-time-analytics](https://github.com/phatle224/fmcg-real-time-analytics)
 
@@ -144,15 +145,25 @@
 
 ### Agent SQL - Multi-Agent NL2SQL System
 
-| Aspect | Details |
-|---|---|
-| **Problem** | Build an intelligent, enterprise-ready self-service analytics platform that translates natural language into secure SQL queries without exposing live production databases to business users. |
-| **My Role** | Developed the **Import Service & Connection Hub** supporting 7 data adapters (PostgreSQL, MySQL, MongoDB, SQLite, Redis, DuckDB, and flat files) to dynamically extract schema metadata and ingest data into Supabase; engineered asynchronous event hooks for real-time schema cache invalidation; integrated Apache Kafka for asynchronous request/response queuing; and orchestrated performance load-testing using `k6`. |
-| **Scale / Impact** | Delivered a highly secure, multi-tenant microservices architecture capable of seamless ingestion from NoSQL, relational, and column-oriented DBs with rule-based safety validation and active connection isolation. |
-| **Tech** | `Python` `FastAPI` `Apache Kafka` `PostgreSQL` `Supabase` `Redis` `MongoDB` `DuckDB` `Docker` `k6` `Trivy` |
-| **Learning outcomes** | Deepened expertise in multi-engine database adapters, microservices communication (Kafka messaging, async/await coordination), connection pooling, database security guardrails, and automated load/vulnerability scanning. |
+Multi-agent NL2SQL platform with seven data adapters, Kafka workflows, and rule-based safety isolation.
 
 🔗 **Repository:** [phatle224/Agent_SQL](https://github.com/phatle224/Agent_SQL)
+
+<br/>
+
+### WordMesh Vocabulary Platform
+
+Full-stack English vocabulary workspace for lookup, enrichment, spaced repetition, and learner progress.
+
+🔗 [Repository](https://github.com/phatle224/wordmesh-vocab-builder)
+
+<br/>
+
+### AI for Education Platform
+
+Collaborative LLM platform for intelligent tutoring, grading assistance, and personalized curriculum generation.
+
+🔗 [Repository](https://github.com/phatle224/AI-FOR-EDUCATION)
 
 </div>
 
